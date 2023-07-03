@@ -1,5 +1,14 @@
 # Tech Challenge Fase 1
 
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/rdanieli/soat_api)
+![Docker Pulls](https://img.shields.io/docker/pulls/rdanieli/soat_api)
+
+
+Entrega da Fase 1 do Tech Challenge da Pos-Graduação de Arquitetura de Software (SOAT).
+
+Aluno: Rodrigo Mariano Danieli Merlucci
+
+---
 ## Indice
 1. [Documentacao](#documentação-ddd)
     * [Linguagem Ubiqua](#linguagem-ubiqua)
@@ -8,14 +17,30 @@
     * [Instalação](#instalação)
     * [API](#api)
         * [Cliente](#cliente)
-            * [Lista]  
+            * Lista 
+            * Consulta por CPF
+            * Cadastro
         * [Produto](#produto)
+            * Lista 
+            * Consulta por Categoria
+            * Cadastro
+            * Editar
+            * Remover
         * [Pedido](#pedido)
+            * Lista 
+            * Consulta por Status
+            * Novo
+            * Adicionar Produto
+            * Remover Produto
+            * Lista de Produtos
+            * Checkout
 
 
 ---
 
 ## Documentação DDD
+
+   Nesse repositorio é apresentada a Linguagem Ubiqua usada, e os fluxos usados como referencia para a contrução e compreenção do projeto.
 
 ---
 
@@ -79,15 +104,26 @@
 ---
 ## Projeto
 
+   O projeto foi desenvolvido na linguagem de programação PHP e utilizando o MySql como banco de dados. 
+   
+   Esse documento possui todas as instruções para a instalação do projeto, mas o codigo fonte original esta disponibilizado no repositorio [fiap-soat-rdanieli;backend_api](https://github.com/fiap-soat-rdanieli/backend_api).
+
+   Neste repositorio existe um docker-composer que é usado para a configuração dos containers de banco e aplicação, e um diretorio **db**, onde estao os scripts iniciais do banco de dados, que seram executados ao iniciar o container.
+   
 ---
 ### Instalação 
+
+   Fazendo download do repositorio:
 
     > git init
     > git pull https://github.com/fiap-soat-rdanieli/fase_1
 
+   Iniciando o projeto 
 
     > docker compose -f docker-composer.yml up
 
+   Após isso o projeto estará rodando e poderar ser acessado atraves da porta 80 da maquina
+   
 ---
 ### API
 
