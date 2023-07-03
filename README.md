@@ -106,7 +106,7 @@ Aluno: Rodrigo Mariano Danieli Merlucci
 
    O projeto foi desenvolvido na linguagem de programação PHP e utilizando o MySql como banco de dados. 
    
-   Esse documento possui todas as instruções para a instalação do projeto, mas o codigo fonte original esta disponibilizado no repositorio [fiap-soat-rdanieli;backend_api](https://github.com/fiap-soat-rdanieli/backend_api).
+   Esse documento possui todas as instruções para a instalação do projeto, mas o codigo fonte original esta disponibilizado no repositorio [fiap-soat-rdanieli/backend_api](https://github.com/fiap-soat-rdanieli/backend_api).
 
    Neste repositorio existe um docker-composer que é usado para a configuração dos containers de banco e aplicação, e um diretorio **db**, onde estao os scripts iniciais do banco de dados, que seram executados ao iniciar o container.
    
