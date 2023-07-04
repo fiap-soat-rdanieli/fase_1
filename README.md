@@ -108,7 +108,7 @@ Aluno: Rodrigo Mariano Danieli Merlucci
    
    Esse documento possui todas as instruções para a instalação do projeto, mas o codigo fonte original esta disponibilizado no repositorio [fiap-soat-rdanieli/backend_api](https://github.com/fiap-soat-rdanieli/backend_api).
 
-   Neste repositorio existe um docker-composer que é usado para a configuração dos containers de banco e aplicação, e um diretorio **db**, onde estao os scripts iniciais do banco de dados, que seram executados ao iniciar o container.
+   Neste repositorio existe um docker-compose que é usado para a configuração dos containers de banco e aplicação, e um diretorio **db**, onde estao os scripts iniciais do banco de dados, que seram executados ao iniciar o container.
    
 ---
 ### Instalação 
@@ -120,7 +120,7 @@ Aluno: Rodrigo Mariano Danieli Merlucci
 
    Iniciando o projeto 
 
-    > docker compose -f docker-composer.yml up
+    > docker compose -f docker-compose.yml up
 
    Após isso o projeto estará rodando e poderar ser acessado atraves da porta 80 da maquina
    
